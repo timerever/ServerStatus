@@ -39,10 +39,10 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
 							<li class="dropdown">
-								<a data-toggle="dropdown" class="dropdown-toggle" href="#">Style<b class="caret"></b></a>
+								<a data-toggle="dropdown" class="dropdown-toggle" href="#">风格<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="#" onclick="setActiveStyleSheet('dark')">Dark</a></li>
-									<li><a href="#" onclick="setActiveStyleSheet('light')">Light</a></li>
+									<li><a href="#" onclick="setActiveStyleSheet('dark')">黑暗</a></li>
+									<li><a href="#" onclick="setActiveStyleSheet('light')">明亮</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -55,14 +55,14 @@
 			<div id="loading-notice">
 				<noscript>
 					<div class="alert alert-danger" style="text-align: center;">
-						<strong>Enable JavaScript</strong> you fucking autist neckbeard, it's not gonna hurt you.
+						<strong>请打开 JavaScript</strong> 这是必须的，没得商量。
 					</div>
 				</noscript>
 				<div class="progress progress-striped active">
-					<div class="progress-bar progress-bar-warning" style="width: 100%;">Loading...</div>
+					<div class="progress-bar progress-bar-warning" style="width: 100%;">加载中...</div>
 				</div>
 				<div style="text-align: center;">
-					If this message doesn't disappear make sure that you have Javascript enabled.<br />Otherwise the status server is probably down.
+					如果出现此消息，请检查是否开启 Javascript。<br />否则服务展示端将无法正常运行。
 				</div>
 				<p></p>
 			</div>
@@ -71,16 +71,16 @@
 				<tr>
 					<th id="status4" style="text-align: center;">IPv4</th>
 					<th id="status6" style="text-align: center;">IPv6</th>
-					<th id="name">Name</th>
-					<th id="type">Type</th>
-					<th id="host">Host</th>
-					<th id="location">Location</th>
-					<th id="uptime">Uptime</th>
-					<th id="load">Load</th>
-					<th id="network">Network ↓|↑</th>
+					<th id="name">名称</th>
+					<th id="type">类型</th>
+					<th id="host">位置</th>
+					<th id="location">位置</th>
+					<th id="uptime">在线时间</th>
+					<th id="load">负载</th>
+					<th id="network">网络 ↓|↑</th>
 					<th id="cpu">CPU</th>
-					<th id="ram">RAM</th>
-					<th id="hdd">HDD</th>
+					<th id="ram">内存</th>
+					<th id="hdd">硬盘</th>
 				</tr>
 				</thead>
 				<tbody id="servers">
@@ -88,12 +88,12 @@
 				</tbody>
 			</table>
 			<br />
-			<div id="updated">Updating...</div>
+			<div id="updated">更新中...</div>
 		</div>
 
 		<div class="container">
 			<p style="text-align: center; font-size: 10px;">
-				<a href="https://github.com/BotoX/ServerStatus">ServerStatus</a>
+				<a href="https://github.com/timerever/ServerStatus">ServerStatus</a>
 			</p>
 		</div>
 		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
